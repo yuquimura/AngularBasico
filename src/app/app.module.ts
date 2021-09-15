@@ -15,6 +15,8 @@ import { DetallesComponent } from './detalles/detalles.component';
 import { LibrosseleccionadosService } from './librosseleccionados.service';
 import { MiDirectivaDirective } from './mi-directiva.directive';
 
+
+
 const rutasApp:Routes = [
   { path:'lista-libros' , component: ListaDeLibrosComponent },
   { path:'acerca-de' , component: AcercaDeComponent },
